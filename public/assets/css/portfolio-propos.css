@@ -1,0 +1,76 @@
+/*PROPOS*/
+.background {
+color: hsl(324, 70%, 45%);
+background-color: currentColor;
+}
+@supports (background-blend-mode: overlay) {
+.background {
+    background-image: linear-gradient(45deg, pink 10%, blue 90%);
+    background-blend-mode: overlay;
+}
+}
+.title-propos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.sub-title-propos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 5px;
+    font-size: 15px;
+}
+.bloc-propos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.apropos{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding-left: 150px;
+    color: white;
+    
+}
+.title-formation,.title-apprentissage,.title-materiel{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.formation,.apprentissage,.materiel{
+    margin: 10px 0px;
+    padding: 10px ;
+    background-color: #1c0552;
+    border-radius: 20px;
+}
+.text-apropos{
+    text-align: justify;
+    text-align: center;
+    font-size: 13px;
+}
+.Rainbow {
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0.45, #2ff), color-stop(0.3, #22f));
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    }
+.Rainbow1 {
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0.3, rgb(216, 5, 139)), color-stop(0.45, rgb(240, 114, 225)));
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    }
+.Rainbow2 {
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0.3, rgb(216, 5, 5)), color-stop(0.45, rgb(240, 114, 114)));
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    }

@@ -1,0 +1,20 @@
+CRITICAL - 2021-12-17 06:30:40 --> Invalid file: Portfolio/acceuil.php
+#0 C:\Users\BTS SIO\Documents\BTS SIO\Projet\Portfolio\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Portfolio/acceu...')
+#1 C:\Users\BTS SIO\Documents\BTS SIO\Projet\Portfolio\system\Common.php(1097): CodeIgniter\View\View->render('Portfolio/acceu...', Array, true)
+#2 C:\Users\BTS SIO\Documents\BTS SIO\Projet\Portfolio\app\Controllers\Portfolio.php(8): view('Portfolio/acceu...')
+#3 C:\Users\BTS SIO\Documents\BTS SIO\Projet\Portfolio\system\CodeIgniter.php(824): App\Controllers\Portfolio->acceuil()
+#4 C:\Users\BTS SIO\Documents\BTS SIO\Projet\Portfolio\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portfolio))
+#5 C:\Users\BTS SIO\Documents\BTS SIO\Projet\Portfolio\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\BTS SIO\Documents\BTS SIO\Projet\Portfolio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\BTS SIO\Documents\BTS SIO\Projet\Portfolio\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#8 {main}
+CRITICAL - 2021-12-17 06:48:56 --> Invalid file: Portfolio/propos.php
+#0 C:\Users\BTS SIO\Documents\BTS SIO\Projet\Portfolio\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Portfolio/propo...')
+#1 C:\Users\BTS SIO\Documents\BTS SIO\Projet\Portfolio\system\Common.php(1097): CodeIgniter\View\View->render('Portfolio/propo...', Array, true)
+#2 C:\Users\BTS SIO\Documents\BTS SIO\Projet\Portfolio\app\Controllers\Portfolio.php(11): view('Portfolio/propo...')
+#3 C:\Users\BTS SIO\Documents\BTS SIO\Projet\Portfolio\system\CodeIgniter.php(824): App\Controllers\Portfolio->acceuil()
+#4 C:\Users\BTS SIO\Documents\BTS SIO\Projet\Portfolio\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portfolio))
+#5 C:\Users\BTS SIO\Documents\BTS SIO\Projet\Portfolio\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\BTS SIO\Documents\BTS SIO\Projet\Portfolio\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\BTS SIO\Documents\BTS SIO\Projet\Portfolio\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#8 {main}

@@ -1,0 +1,37 @@
+body {
+color: hsl(324, 70%, 45%);
+background-color: currentColor;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+@supports (background-blend-mode: overlay) {
+body {
+    background-image: linear-gradient(45deg, pink 10%, blue 90%);
+    background-blend-mode: overlay;
+}
+}
+.bx-chevron-left, .acceuil{
+    font-size: 30px;
+    color: white;
+}
+.reseau{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgba(216, 191, 216, 0.5);
+    width: 200px;
+}
+.reaseau > a,.a{
+    padding-top: 10px;
+    text-decoration: none;
+    color: white;
+}
+.bxl-linkedin-square,.bxl-instagram-alt{
+    color: white;
+    font-size: 50px;
+    padding-top: 10px;
+}
