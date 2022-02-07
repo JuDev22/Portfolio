@@ -5,13 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="<?= css_url('templates/header') ?>" type="text/css" rel="stylesheet"/>
+    <link href="<?= css_url('templates/header') ?>" type="text/css" rel="stylesheet" />
+    <link href="<?= css_url('Portfolio/hello') ?>" type="text/css" rel="stylesheet" />
+    <link href="<?= css_url('templates/footer') ?>" type="text/css" rel="stylesheet" />
     <title>Portfolio</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-dar bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dar bg-dark fixed-top nav">
         <div class="container-fluid">
             <a class="navbar-brand text-white ms-3" href="#">Julian <span class="text-muted">| Portfolio</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,19 +25,19 @@
                     </svg>
                 </div>
             </button>
-            <div class="collapse navbar-collapse justify-content-end me-5" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-end me-5-md" id="navbarNav">
                 <ul class="navbar-nav align-items-center">
                     <li class="nav-item">
-                        <a class="nav-link text-secondary hover-white" aria-current="page" href="#">A propos</a>
+                        <a class="nav-link text-secondary hover-white" aria-current="page" href="#"><i class="bi bi-file-earmark-person"></i>A propos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-secondary hover-white" href="#">Mes projets</a>
+                        <a class="nav-link text-secondary hover-white" href="#"><i class="bi bi-braces"></i>Mes projets</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-secondary hover-white" href="#">Diplômes / Certificats</a>
+                        <a class="nav-link text-secondary hover-white" href="#"><i class="bi bi-mortarboard"></i>Diplômes / Certificats</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-secondary hover-white" href="#">Contact</a>
+                        <a class="nav-link text-secondary hover-white" href="#"><i class="bi bi-envelope"></i>Contact</a>
                     </li>
                 </ul>
             </div>

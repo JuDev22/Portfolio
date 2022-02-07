@@ -3,6 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+body{
+  background-color: #1d1f3f;
+}
 @media screen and (max-width: 768px)
 {
   .navbar-nav{
@@ -15,6 +18,9 @@
 }
 .hover-white:hover {
   color: white !important;
+}
+.nav{
+  background-color: #171933!important;
 }
 /*BURGER ANIME*/
 .menu-icon {
@@ -99,4 +105,11 @@ svg {
 }
 .navbar-toggler:focus {
   box-shadow: none !important;
+}
+.bi-file-earmark-person,.bi-braces,.bi-mortarboard,.bi-envelope{
+  color: #b185db;
+  padding-right: 10px;
+}
+.nav-item a{
+  display: block ruby;
 }

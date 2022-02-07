@@ -2,12 +2,11 @@
 namespace App\Controllers;
 
 use CodeIgniter\Controller;
-helper('assets');
+helper('assets','form','helper');
 class Portfolio extends BaseController{
     public function accueil(){
         echo view('templates/header');
-        echo view('Portfolio/bonjour');
+        echo view('Portfolio/hello');
         echo view('templates/footer');
-
     }
 }
