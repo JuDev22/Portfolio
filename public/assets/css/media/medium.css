@@ -1,0 +1,95 @@
+/* DE 768px JUSQUE 992px */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  :root{
+    --nav-color: #171933;
+    --html-color: orangered;
+    --css-color: rgb(52, 52, 255);
+    --js-color: yellow;
+    --py-color: yellow;
+    --php-color: rgb(113, 52, 255);
+    --title-font: 'Dancing Script', cursive;
+}
+  .container-hello {
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    height: 300px;
+    border-radius: 50px;
+    background-color: var(--nav-color);
+  }
+  .pad {
+    padding: 2% 3%;
+  }
+  .fenetre {
+    height: 150px;
+    margin-left: 2%;
+  }
+  .icon {
+    height: 0.7rem;
+    width: 0.7rem;
+  }
+  .hello {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hello .typewrite {
+    color: white;
+    font-size: 20px;
+  }
+  .unselectable {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  /* ABOUT */
+  .container-about {
+    display: flex;
+    margin-top: 40px;
+  }
+  .left-side {
+    display: flex;
+    align-items: center;
+    padding: 20px !important;
+    background-color: var(--nav-color);
+    margin: 5%;
+    margin-right: 10%;
+    border-radius: 50px;
+  }
+  .bxl-html5 {
+    font-size: 30px;
+    color: var(--html-color);
+  }
+  .bxl-css3 {
+    font-size: 30px;
+    color: var(--css-color);
+  }
+  .bxl-javascript {
+    font-size: 30px;
+    color: var(--js-color);
+  }
+  .bxl-python {
+    font-size: 30px;
+    color: var(--py-color);
+  }
+  .bxl-php {
+    font-size: 30px;
+    color: var(--php-color);
+  }
+  .ft-size {
+    font-size: small;
+  }
+  .h1-about {
+    font-family: var(--title-font);
+    font-style: italic;
+    font-size: 80px;
+    text-align: center;
+    color: var(--nav-color);
+  }
+  .text-propos p{
+      font-size: 16px;
+  }
+}

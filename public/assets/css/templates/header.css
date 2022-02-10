@@ -106,7 +106,7 @@ svg {
 .navbar-toggler:focus {
   box-shadow: none !important;
 }
-.bi-file-earmark-person,.bi-braces,.bi-mortarboard,.bi-envelope{
+.bi-file-earmark-person,.bi-braces,.bi-mortarboard,.bi-envelope,.bi-laptop{
   color: #b185db;
   padding-right: 10px;
 }
